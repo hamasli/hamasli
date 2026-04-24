@@ -75,7 +75,7 @@ print(me.life_motto())
 
 ### 🏫 CUST, Pakistan
 **BSc Software Engineering**
-`Oct 2021 – Jul 2025` · GPA: **3.83 / 4.0** 🏅
+`Oct 2021 – Jul 2025` · GPA: **3.80 / 4.0** 🏅
 
 - 🏆 1× Chancellor's Honor Roll (GPA > 3.9)
 - 🥇 6× Dean's Honor Roll
