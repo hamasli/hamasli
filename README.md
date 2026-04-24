@@ -1,86 +1,17 @@
 <div align="center">
 
-<!-- AI-themed SVG Banner -->
-<svg width="100%" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" style="display:block">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0c29"/>
-      <stop offset="50%" style="stop-color:#302b63"/>
-      <stop offset="100%" style="stop-color:#24243e"/>
-    </linearGradient>
-  </defs>
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bgGrad)"/>
-  <!-- Grid lines (circuit board feel) -->
-  <g stroke="#a78bfa" stroke-width="0.3" opacity="0.15">
-    <line x1="0" y1="40" x2="900" y2="40"/>
-    <line x1="0" y1="80" x2="900" y2="80"/>
-    <line x1="0" y1="120" x2="900" y2="120"/>
-    <line x1="0" y1="160" x2="900" y2="160"/>
-    <line x1="100" y1="0" x2="100" y2="200"/>
-    <line x1="200" y1="0" x2="200" y2="200"/>
-    <line x1="300" y1="0" x2="300" y2="200"/>
-    <line x1="400" y1="0" x2="400" y2="200"/>
-    <line x1="500" y1="0" x2="500" y2="200"/>
-    <line x1="600" y1="0" x2="600" y2="200"/>
-    <line x1="700" y1="0" x2="700" y2="200"/>
-    <line x1="800" y1="0" x2="800" y2="200"/>
-  </g>
-  <!-- Floating AI nodes (agents/LLM visual) -->
-  <circle cx="60" cy="50" r="18" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.6"/>
-  <circle cx="60" cy="50" r="8" fill="#a78bfa" opacity="0.4"/>
-  <circle cx="840" cy="150" r="22" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.5"/>
-  <circle cx="840" cy="150" r="10" fill="#7c3aed" opacity="0.35"/>
-  <circle cx="150" cy="170" r="14" fill="none" stroke="#a78bfa" stroke-width="0.8" opacity="0.4"/>
-  <circle cx="750" cy="30" r="16" fill="none" stroke="#a78bfa" stroke-width="0.8" opacity="0.5"/>
-  <circle cx="750" cy="30" r="6" fill="#a78bfa" opacity="0.3"/>
-  <!-- Connection lines between nodes -->
-  <line x1="60" y1="50" x2="150" y2="170" stroke="#a78bfa" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 3"/>
-  <line x1="750" y1="30" x2="840" y2="150" stroke="#a78bfa" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 3"/>
-  <line x1="60" y1="50" x2="750" y2="30" stroke="#a78bfa" stroke-width="0.3" opacity="0.12" stroke-dasharray="6 4"/>
-  <!-- Small robot/agent icons (simple geometric) -->
-  <!-- Robot left -->
-  <g transform="translate(30,120)" opacity="0.5">
-    <rect x="0" y="8" width="20" height="16" rx="3" fill="none" stroke="#a78bfa" stroke-width="1"/>
-    <rect x="5" y="2" width="10" height="8" rx="2" fill="none" stroke="#a78bfa" stroke-width="1"/>
-    <circle cx="7" cy="6" r="2" fill="#a78bfa" opacity="0.6"/>
-    <circle cx="13" cy="6" r="2" fill="#a78bfa" opacity="0.6"/>
-    <line x1="5" y1="24" x2="5" y2="32" stroke="#a78bfa" stroke-width="1"/>
-    <line x1="15" y1="24" x2="15" y2="32" stroke="#a78bfa" stroke-width="1"/>
-  </g>
-  <!-- Robot right -->
-  <g transform="translate(840,60)" opacity="0.4">
-    <rect x="0" y="8" width="20" height="16" rx="3" fill="none" stroke="#7c3aed" stroke-width="1"/>
-    <rect x="5" y="2" width="10" height="8" rx="2" fill="none" stroke="#7c3aed" stroke-width="1"/>
-    <circle cx="7" cy="6" r="2" fill="#7c3aed" opacity="0.7"/>
-    <circle cx="13" cy="6" r="2" fill="#7c3aed" opacity="0.7"/>
-    <line x1="5" y1="24" x2="5" y2="32" stroke="#7c3aed" stroke-width="1"/>
-    <line x1="15" y1="24" x2="15" y2="32" stroke="#7c3aed" stroke-width="1"/>
-  </g>
-  <!-- Floating tech labels -->
-  <text x="80" y="100" font-family="monospace" font-size="10" fill="#a78bfa" opacity="0.35">LLM</text>
-  <text x="780" y="90" font-family="monospace" font-size="10" fill="#a78bfa" opacity="0.35">Agents</text>
-  <text x="170" y="45" font-family="monospace" font-size="9" fill="#a78bfa" opacity="0.3">Computer Vision</text>
-  <text x="640" y="170" font-family="monospace" font-size="9" fill="#a78bfa" opacity="0.3">GenAI</text>
-  <text x="390" y="185" font-family="monospace" font-size="9" fill="#a78bfa" opacity="0.25">RAG · Transformers · Neural Nets</text>
-  <!-- Main title -->
-  <text x="450" y="95" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">Hamas Ali</text>
-  <!-- Subtitle -->
-  <text x="450" y="130" font-family="Arial, sans-serif" font-size="15" fill="#a78bfa" text-anchor="middle" letter-spacing="1">AI Engineer · MS Computer Science (AI) @ UniPi · YouTuber</text>
-  <!-- Bottom pulse dots -->
-  <circle cx="420" cy="160" r="3" fill="#a78bfa" opacity="0.6"/>
-  <circle cx="435" cy="160" r="3" fill="#a78bfa" opacity="0.4"/>
-  <circle cx="450" cy="160" r="3" fill="#a78bfa" opacity="0.6"/>
-  <circle cx="465" cy="160" r="3" fill="#a78bfa" opacity="0.4"/>
-  <circle cx="480" cy="160" r="3" fill="#a78bfa" opacity="0.6"/>
-</svg>
+<!-- Animated Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Hamas%20Ali&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20MS%20Computer%20Science%20(AI)%20%40%20UniPi%20%7C%20YouTuber&descAlignY=60&descColor=a78bfa&animation=fadeIn"/>
+
+<!-- Typing Animation -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=🤖+Building+the+Future+with+AI;🧠+Machine+Learning+%7C+Computer+Vision+%7C+GenAI;🎓+MSc+AI+%40+University+of+Pisa%2C+Italy;🎥+YouTuber+%40+Hamas+Raja!;🌍+From+Pakistan+to+Italy+—+Chasing+AI+Dreams;⚡+Always+Learning%2C+Always+Building!" alt="Typing SVG" /></a>
 
 <br/>
 
 <!-- Social Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-hamasli-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hamasli)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamas%20Ali-302b63?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamasali)
-[![YouTube](https://img.shields.io/badge/YouTube-hamas__ali00-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@hamas_ali00)
+[![YouTube](https://img.shields.io/badge/YouTube-Hamas%20Raja!-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@HamasRaja)
 [![Email](https://img.shields.io/badge/Email-hamasraja00@gmail.com-a78bfa?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamasraja00@gmail.com)
 [![Location](https://img.shields.io/badge/📍%20Pisa-Italy-24243e?style=for-the-badge)](https://maps.app.goo.gl/pisa)
 
@@ -102,16 +33,15 @@ class HamasAli:
         self.degree      = "MSc Computer Science (AI)"
         self.undergrad   = "BSc Software Engineering — GPA: 3.83/4.0 🏅"
         self.location    = "Pisa, Italy 🇮🇹 (Originally from Pakistan 🇵🇰)"
-        self.youtube     = "@hamas_ali00 🎥"
-        self.passion     = ["AI Systems", "Computer Vision", "GenAI", "Teaching",
-                            "Travel Content", "Study Abroad Vlogs"]
+        self.youtube     = "@HamasRaja 🎥"
+        self.passion     = ["AI Systems", "Computer Vision", "GenAI", "Teaching"]
 
     def current_focus(self):
         return [
             "🔬 Researching Continual Learning & Computer Vision",
             "🤖 Building AI-powered automation workflows with N8N",
             "🛠️  Vibe-coding with Claude Code AI",
-            "📹 Creating travel & study abroad content on YouTube",
+            "📹 Creating AI content on YouTube",
             "💼 Seeking AI Engineer opportunities",
         ]
 
@@ -230,6 +160,26 @@ print(me.life_motto())
 
 ---
 
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hamasli&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=a78bfa"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamasli&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=hamasli&theme=tokyonight&hide_border=true&background=0f0c29&stroke=a78bfa&ring=a78bfa&fire=ff6b6b&currStreakLabel=ffffff)](https://git.io/streak-stats)
+
+</div>
+
+---
+
 ## 🏆 Certifications & Achievements
 
 <div align="center">
@@ -261,35 +211,20 @@ print(me.life_motto())
 
 ---
 
-## 🎥 YouTube — @hamas_ali00
+## 🎥 YouTube — Hamas Raja!
 
 <div align="center">
 
-> *"If you can build it, you can teach it — and if you can live it, you can share it."*
+> 
 
-I create content about **AI, Machine Learning, travel, and studying abroad** — from tutorials and project walkthroughs to real vlogs of life as an international student in Italy. Whether you're into tech or thinking about studying in Europe, there's something here for you!
+I create content a about ** Traveling and Study Abroad** 
 
-**What you'll find on my channel:**
-- 🤖 AI & Machine Learning tutorials
-- 🌍 Travel vlogs & life in Italy
-- 🎓 Study abroad tips & international student life
-- 🛠️ Project build-alongs & coding walkthroughs
-
-[![YouTube Channel](https://img.shields.io/badge/▶️%20Watch%20on%20YouTube-@hamas__ali00-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@hamas_ali00)
+[![YouTube Channel](https://img.shields.io/badge/▶️%20Watch%20on%20YouTube-Hamas%20Raja!-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@hamas_ali00)
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-[![Hamas's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=hamasli&bg_color=0f0c29&color=a78bfa&line=a78bfa&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
 
 ## 🤝 Let's Connect!
 
