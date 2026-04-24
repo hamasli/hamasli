@@ -18,7 +18,7 @@
 </div>
 
 ---
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&lines=Junior+AI+Engineer;Generative+AI+%7C+RAG+%7C+LLMs;Building+AI+Systems+%26+Applications)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?size=22&duration=6000&color=36BCF7&lines=Junior+AI+Engineer;Generative+AI+%7C+RAG+%7C+LLMs;Building+AI+Systems+%26+Applications)
 
 ---
 
@@ -30,12 +30,9 @@ My technical expertise includes Python, C/C++, JavaScript, and SQL, along with A
 
 I also develop backend systems using FastAPI and Django, and work with tools such as Docker, Git/GitHub, and Jupyter Notebook. Additionally, I actively explore AI automation and development workflows using Claude Code AI and n8n.
 
-I am continuously expanding my knowledge in Generative AI, LLM applications, and scalable AI systems, with the goal of contributing to real-world AI solutions.
+ I am highly motivated to learn new technologies, excited to work in the rapidly evolving era of AI, and passionate about building innovative products and services powered by AI.
 
 ---
-
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=blue)
-
 
 ## 🎓 Education
 
