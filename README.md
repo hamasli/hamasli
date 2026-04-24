@@ -18,41 +18,24 @@
 </div>
 
 ---
+![Typing SVG](https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&lines=Junior+AI+Engineer;Generative+AI+%7C+RAG+%7C+LLMs;Building+AI+Systems+%26+Applications)
 
-<!-- About Me -->
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
+---
 
 ## 🧬 About Me
 
-```python
-class HamasAli:
-    def __init__(self):
-        self.name        = "Hamas Ali"
-        self.role        = "Junior AI Engineer"
-        self.university  = "University of Pisa 🇮🇹"
-        self.degree      = "MSc Computer Science (AI)"
-        self.undergrad   = "BSc Software Engineering — GPA: 3.83/4.0 🏅"
-        self.location    = "Pisa, Italy 🇮🇹 (Originally from Pakistan 🇵🇰)"
-        self.youtube     = "@HamasRaja 🎥"
-        self.passion     = ["AI Systems", "Computer Vision", "GenAI", "Teaching"]
+I am a Junior AI Engineer currently pursuing a Master’s in Computer Science (Artificial Intelligence) at the University of Pisa, Italy, with a strong academic background in Software Engineering (GPA: 3.83/4.0). I have solid foundations in Generative AI, Machine Learning, and Computer Vision, and I am focused on building practical AI systems and applications.
 
-    def current_focus(self):
-        return [
-            "🔬 Researching Continual Learning & Computer Vision",
-            "🤖 Building AI-powered automation workflows with N8N",
-            "🛠️  Vibe-coding with Claude Code AI",
-            "📹 Creating AI content on YouTube",
-            "💼 Seeking AI Engineer opportunities",
-        ]
+My technical expertise includes Python, C/C++, JavaScript, and SQL, along with AI/ML frameworks such as PyTorch, TensorFlow, Keras, and Scikit-learn. I work with modern AI development tools and technologies including LangChain, OpenAI API, and Retrieval-Augmented Generation (RAG) systems.
 
-    def life_motto(self):
-        return "Build. Learn. Teach. Repeat. 🚀"
+I also develop backend systems using FastAPI and Django, and work with tools such as Docker, Git/GitHub, and Jupyter Notebook. Additionally, I actively explore AI automation and development workflows using Claude Code AI and n8n.
 
-me = HamasAli()
-print(me.life_motto())
-```
+I am continuously expanding my knowledge in Generative AI, LLM applications, and scalable AI systems, with the goal of contributing to real-world AI solutions.
 
 ---
+
+![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=blue)
+
 
 ## 🎓 Education
 
